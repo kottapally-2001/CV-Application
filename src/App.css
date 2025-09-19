@@ -1,0 +1,137 @@
+.app {
+  max-width: 800px;
+  margin: 2rem auto;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.section {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+  margin-bottom: 15px;
+}
+
+.section input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.section input:focus {
+  border-color: #4f46e5; 
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
+}
+
+.section button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: white;
+  background-color: #4f46e5;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.section button:hover {
+  background-color: #4338ca;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 4px;
+  display: block;
+}
+
+span {
+  font-size: 14px;
+  color: red;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #4f46e5;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+
+button:hover {
+  background: #4338ca;
+}
+
+.cv-preview {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #f3f4f6;
+  border-radius: 10px;
+  border-top: 2px solid #4f46e5;
+  border-bottom: 2px solid #4f46e5;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+
+}
+
+.cv-preview section {
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #4f46e5;
+}
+
+.cv-preview h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #111;
+  border-bottom: 2px solid #4f46e5;
+  padding-bottom: 0.25rem;
+  font-weight: 700;
+
+}
+
+.cv-preview h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #222;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+.cv-preview p {
+  margin: 0.25rem 0;
+  color: #555;
+
+}
+
+@media (max-width: 600px) {
+  .app {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .section, .cv-preview {
+    padding: 1rem;
+  }
+}
